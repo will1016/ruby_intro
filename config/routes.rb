@@ -1,4 +1,38 @@
 Rails.application.routes.draw do
+  get("/basics/1", {:controller => "basics", :action => "num_1"})
+  get("/basics/2", {:controller => "basics", :action => "num_2"})
+  get("/basics/3", {:controller => "basics", :action => "num_3"})
+  get("/basics/4", {:controller => "basics", :action => "num_4"})
+  get("/basics/5", {:controller => "basics", :action => "num_5"})
+  get("/basics/6", {:controller => "basics", :action => "num_6"})
+  get("/basics/7", {:controller => "basics", :action => "num_7"})
+  get("/basics/8", {:controller => "basics", :action => "num_8"})
+  get("/basics/8", {:controller => "basics", :action => "num_8"})
+  get("/basics/9", {:controller => "basics", :action => "num_9"})
+  get("/basics/10", {'controller' => "basics", 'action' => "num_10"})
+  get("/basics/11", {:controller => "basics", :action => "num_11"})
+
+  get("/hashes/1", {:controller => "hashes", :action => "num_1"})
+  get("/hashes/2", {:controller => "hashes", :action => "num_2"})
+  get("/hashes/3", {:controller => "hashes", :action => "num_3"})
+  get("/hashes/4", {:controller => "hashes", :action => "num_4"})
+  get("/hashes/5", {:controller => "hashes", :action => "num_5"})
+  get("/hashes/6", {:controller => "hashes", :action => "num_6"})
+
+  get("/params/1/:name", {:controller => "params", :action => "num_1"})
+  get("/params/2/:color", {:controller => "params", :action => "num_2"})
+  get("/params/3", {:controller => "params", :action => "num_3"})
+
+
+  get("/forms/1", {:controller => "forms", :action => "num_1_display"})
+  get("/forms/1_process", {:controller => "forms", :action => "num_1_process"})
+  get("/forms/2", {:controller => "forms", :action => "num_2"})
+  get("/forms/3", {:controller => "forms", :action => "num_3_display"})
+  get("/forms/3_process", {:controller => "forms", :action => "num_3_process"})
+  get("/forms/4", {:controller => "forms", :action => "num_4"})
+  get("/forms/5", {:controller => "forms", :action => "num_five"})
+  get("/forms/6", {:controller => "forms", :action => "num_6_display"})
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
