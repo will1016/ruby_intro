@@ -199,18 +199,6 @@ class BasicsController < ApplicationController
 
   def num_15
     #=== Problem ================================
-    # Write code that counts the number of
-    # characters in the name variable.
-    #============================================
-
-    name = "Jane Doe"
-
-    @result = "replace this string with your answer"
-    render "basics"
-  end
-
-  def num_16
-    #=== Problem ================================
     # Write code that replaces all the
     # e's in the name variable with 3's.
     #============================================

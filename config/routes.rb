@@ -14,7 +14,6 @@ Rails.application.routes.draw do
   get("/basics/13", {:controller => "basics", :action => "num_13"})
   get("/basics/14", {:controller => "basics", :action => "num_14"})
   get("/basics/15", {:controller => "basics", :action => "num_15"})
-  get("/basics/16", {:controller => "basics", :action => "num_16"})
 
   get("/arrays/1", {:controller => "arrays", :action => "num_1"})
   get("/arrays/2", {:controller => "arrays", :action => "num_2"})
