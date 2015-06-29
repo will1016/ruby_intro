@@ -63,7 +63,7 @@ class FormsController < ApplicationController
     render "num_4_display"
   end
 
-  def num_5
+  def num_5_display
     #=== Problem ================================
     # - A user should be able to navigate to
     # /forms/5 and see a sign in form
@@ -75,7 +75,7 @@ class FormsController < ApplicationController
     render "num_5_display"
   end
 
-  def num_6
+  def num_6_display
     #=== Problem ================================
     # - A user should be able to navigate to
     # /forms/5 and see a mad libs form
