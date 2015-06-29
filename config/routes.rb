@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get("/basics/6", {:controller => "basics", :action => "num_6"})
   get("/basics/7", {:controller => "basics", :action => "num_7"})
   get("/basics/8", {:controller => "basics", :action => "num_8"})
-  get("/basics/8", {:controller => "basics", :action => "num_8"})
   get("/basics/9", {:controller => "basics", :action => "num_9"})
   get("/basics/10", {:controller => "basics", :action => "num_10"})
   get("/basics/11", {:controller => "basics", :action => "num_11"})
