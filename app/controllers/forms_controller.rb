@@ -24,7 +24,7 @@ class FormsController < ApplicationController
     #=== Example ================================
     # You don't have to use a form to get data
     # into the params hash
-    # If a user navigated to /forms/2/key=value
+    # If a user navigated to /forms/2?key=value
     # then:
     #============================================
 
@@ -78,7 +78,7 @@ class FormsController < ApplicationController
   def num_6_display
     #=== Problem ================================
     # - A user should be able to navigate to
-    # /forms/5 and see a mad libs form
+    # /forms/6 and see a mad libs form
     # - When the user hits submit, he should get
     # taken to a page that uses all his submitted
     # words in a story

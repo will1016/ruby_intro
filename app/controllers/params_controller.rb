@@ -22,10 +22,10 @@ class ParamsController < ApplicationController
   def num_3
     #=== Problem ================================
     # - A user should be able to navigate to
-    # /params/200/300 and see a colored box
+    # /params/3/200/300 and see a colored box
     # that's 200px wide and 300px high.
     # - A user should be able to navigate to
-    # /params/100/150 and see a colored box
+    # /params/3/100/150 and see a colored box
     # that's 100px wide and 150px high.
     #
     # Build off of the code in the view
