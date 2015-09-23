@@ -193,7 +193,7 @@ class BasicsController < ApplicationController
 
     name = "Jane Doe"
 
-    @result = "replace this string with your answer"
+    @result = name.length
     render "basics"
   end
 
@@ -205,7 +205,7 @@ class BasicsController < ApplicationController
 
     name = "Jane Doe"
 
-    @result = "replace this string with your answer"
+    @result = name.gsub!('e', '3')
     render "basics"
   end
 end
