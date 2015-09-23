@@ -38,7 +38,7 @@ class HashesController < ApplicationController
 
     address = { "correct" => "Sears", "incorrect" => "Willis"}
 
-    @result = "replace this string with your answer"
+    @result = address["correct"]
     render 'hashes'
   end
 
@@ -73,7 +73,7 @@ class HashesController < ApplicationController
                     }
                   }
 
-    @result = "replace this string with your answer"
+    @result = attraction["address"]["street"]
     render 'hashes'
   end
 
