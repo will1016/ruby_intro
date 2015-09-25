@@ -15,7 +15,7 @@ class ParamsController < ApplicationController
     # - A user should be able to navigate to
     # /params/2/green and see a green page.
     #============================================
-
+    @color = params["color"]
     render "num_2"
   end
 
@@ -31,6 +31,8 @@ class ParamsController < ApplicationController
     # Build off of the code in the view
     #============================================
 
+    @width = params["width"]
+    @height = params["height"]
     render "num_3"
   end
 end
