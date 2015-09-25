@@ -60,8 +60,12 @@ class FormsController < ApplicationController
     # For example, "Apparently, you're fine."
     #============================================
 
-    render "num_4_display"
-  end
+      render "num_4_display"
+    end
+    def num_4_process
+      @name = params["name"]
+      render "num_4_process"
+      end
 
   def num_5_display
     #=== Problem ================================
@@ -73,6 +77,10 @@ class FormsController < ApplicationController
     #============================================
 
     render "num_5_display"
+  end
+  def num_5_process
+      @id = params['id']
+    render "num_5_process"
   end
 
   def num_6_display
